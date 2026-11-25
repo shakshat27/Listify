@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_GOOGLE_API_KEY";
+const API_KEY = ""; // paste your Gemini API key here for local use; never commit it
 
 // API Key declared as a variable
 

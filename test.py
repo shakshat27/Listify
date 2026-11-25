@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-API_KEY = "YOUR_GOOGLE_API_KEY";
+API_KEY = os.getenv("GOOGLE_API_KEY")  # export GOOGLE_API_KEY=...
 genai.configure(api_key=API_KEY)
 
 #myfile = genai.upload_file("C:/Users/Aksha/Desktop/eathren.jpg")

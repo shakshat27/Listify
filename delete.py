@@ -1,7 +1,8 @@
+import os
 import google.generativeai as genai
 
-# Replace with your actual API key
-API_KEY = "YOUR_GOOGLE_API_KEY"
+
+API_KEY = os.getenv("GOOGLE_API_KEY")  # export GOOGLE_API_KEY=...
 
 def main():
     try:
